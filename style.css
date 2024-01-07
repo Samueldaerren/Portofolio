@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header1 {
+    background-color: white;
+    padding-top: 10px;
+    color: black;
+    border-bottom: 2px solid aqua;
+    text-align: center;
+}
+
+.Mywebsite {
+    display: inline-block;
+    margin: 0;
+}
+
+nav {
+    background-color: #0d0d0d;
+    color: white;
+    padding: 10px;
+}
+
+nav h3 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+}
+
+nav a:hover {
+    color: rgb(182, 66, 66);
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#content {
+    flex: 1;
+    max-width: 600px;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+    flex: 1;
+    max-width: 400px;
+}
+
+.profile {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile img {
+    width: 80%; 
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
